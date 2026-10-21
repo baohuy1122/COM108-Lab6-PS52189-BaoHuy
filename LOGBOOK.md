@@ -51,15 +51,43 @@ gcc -Wall tests/test_bai2.c -o run_test2 -lm
 ---
 
 ### Lần 7: Bài 3 - Bộ Lọc Làm Mờ Điểm Ảnh (Box Blur Filter 3x3)
-- Trạng thái: 
+- Trạng thái: Fail
 - Prompt hỏi AI (nếu có): 
 - Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Cách sửa / Bài học: baohuy1122@MacBook-Pro-cua-Nguyen code % cd /Volumes/code/COM108-Lab6-PS52189-BaoHuy
+gcc -Wall tests/test_bai3.c -o run_test3 -lm
+./run_test3
+In file included from tests/test_bai3.c:6:
+tests/../src/bai3.c:59:17: warning: unused variable 'sum' [-Wunused-variable]
+   59 |             int sum = 0;
+      |                 ^~~
+tests/../src/bai3.c:60:17: warning: unused variable 'count' [-Wunused-variable]
+   60 |             int count = 0;
+      |                 ^~~~~
+tests/test_bai3.c:8:12: error: function definition is not allowed here
+    8 | int main() {
+      |            ^
+tests/test_bai3.c:89:2: error: expected '}'
+   89 | }
+      |  ^
+tests/../src/bai3.c:57:35: note: to match this '{'
+   57 |     for (int i = 0; i < row; i++) {
+      |                                   ^
+tests/test_bai3.c:89:2: error: expected '}'
+   89 | }
+      |  ^
+tests/../src/bai3.c:47:79: note: to match this '{'
+   47 | void lamMoMaTran(int src[][MAX_COLS], int dest[][MAX_COLS], int row, int col) {
+      |                                                                     
 
 ### Lần 8: Bài 3
-- Trạng thái: 
-- Lỗi / Cách sửa: 
-
+- Trạng thái: Pass 100%
+- Lỗi / Cách sửa: baohuy1122@MacBook-Pro-cua-Nguyen COM108-Lab6-PS52189-BaoHuy % cd /Volumes/code/COM108-Lab6-PS52189-BaoHuy
+gcc -Wall tests/test_bai3.c -o run_test3 -lm
+./run_test3
+[CHAY TEST BAI 3: BO LOC LAM MO DIEM ANH BOX BLUR 3x3]
+>>> BAI 3: PASS 100% TEST CASES!
+--- Đã hoàn thành bài 3![alt text](image-2.png)
 ### Lần 9: Bài 3 (Dự phòng)
 - Trạng thái: 
 - Lỗi / Cách sửa: 
