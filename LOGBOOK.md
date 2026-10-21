@@ -11,20 +11,22 @@
 ---
 
 ### Lần 1: Bài 1 - Bộ Lọc Làm Mịn Tín Hiệu (Moving Average)
-- Trạng thái: Chờ chấm
+- Trạng thái: Fail
 - Prompt hỏi AI (nếu có): 
 - Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Cách sửa / Bài học: [CHAY TEST BAI 1: BO LOC LAM MIN TIN HIEU MOVING AVERAGE]
+FAILED Test 1 (Chuan n=5): Tai vi tri smooth[0] -> Expected: 15.00, Actual: 0.00
 
 ### Lần 2: Bài 1
-- Trạng thái: 
-- Lỗi / Cách sửa: 
+- Trạng thái: Pass 100%
+- Lỗi / Cách sửa: [CHAY TEST BAI 1: BO LOC LAM MIN TIN HIEU MOVING AVERAGE]
+>>> BAI 1: PASS 100% TEST CASES!
 
 ### Lần 3: Bài 1 (Dự phòng)
 - Trạng thái: 
 - Lỗi / Cách sửa: 
 
----
+---Đã hoàn thành  bài 1![alt text](image.png)
 
 ### Lần 4: Bài 2 - Nén Sai Phân Dữ Liệu IoT (Delta Encoding)
 - Trạng thái: 
