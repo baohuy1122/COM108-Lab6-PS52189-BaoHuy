@@ -29,14 +29,20 @@ FAILED Test 1 (Chuan n=5): Tai vi tri smooth[0] -> Expected: 15.00, Actual: 0.00
 ---Đã hoàn thành  bài 1![alt text](image.png)
 
 ### Lần 4: Bài 2 - Nén Sai Phân Dữ Liệu IoT (Delta Encoding)
-- Trạng thái: 
+- Trạng thái: Fail
 - Prompt hỏi AI (nếu có): 
 - Lỗi phát hiện qua Test (nếu có): 
-- Cách sửa / Bài học: 
+- Cách sửa / Bài học: baohuy1122@MacBook-Pro-cua-Nguyen code % gcc -Wall tests/test_bai2.c -o run_test2 -lm && ./run_test2
+clang: error: no such file or directory: 'tests/test_bai2.c'
 
 ### Lần 5: Bài 2
-- Trạng thái: 
-- Lỗi / Cách sửa: 
+- Trạng thái: Pass 100%
+- Lỗi / Cách sửa: baohuy1122@MacBook-Pro-cua-Nguyen code % cd /Volumes/code/COM108-Lab6-PS52189-BaoHuy
+gcc -Wall tests/test_bai2.c -o run_test2 -lm
+./run_test2
+[CHAY TEST BAI 2: NEN & GIAI NEN SAI PHAN DELTA ENCODING]
+>>> BAI 2: PASS 100% TEST CASES!
+--- Đã hoàn thành bài 2![alt text](image-1.png)
 
 ### Lần 6: Bài 2 (Dự phòng)
 - Trạng thái: 
